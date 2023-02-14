@@ -1,0 +1,781 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #777777;
+   
+}
+
+.space {
+    margin: 130px 0;
+}
+
+header,
+main {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+/* Navigation Styles start */
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.navbar-middle-items ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar-middle-items li {
+    list-style-type: none;
+}
+
+.navbar-middle-items a {
+    color: #777777;
+}
+
+.navbar-button button {
+    color: #289BDE;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 150px;
+    height: 56px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* nacvigation styles end */
+
+
+/* header picture */
+
+.container {
+    background-image: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), url(./images/cover/cover-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.cover-text h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 65px;
+
+
+}
+
+.cover-text p {
+    color: #F4F4F4;
+    font-size: 18px;
+}
+
+.cover-text button {
+    width: 182px;
+    height: 56px;
+    background-color: #289BDE;
+    border: 0;
+    border-radius: 5px;
+}
+
+.cover-text a {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.middle-conatiner {
+    text-align: center;
+}
+
+.middle-conatiner h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+
+.cart-container {
+    display: flex;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.cart-item-text p{
+    text-align: start;
+}
+.cart-item-text h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.item-price {
+    font-weight: 600;
+    font-size: 18px;
+    color: #289BDE;
+    text-align: start;
+}
+
+.course-show {
+    text-align: center;
+}
+
+.course-show button {
+    margin-top: 26px;
+    width: 248px;
+    height: 56px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+}
+
+.e-leran h2 {
+    font-size: 45px;
+}
+.e-leran p{
+    text-align: start;
+}
+.work {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.productivity {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.read-more button {
+    margin-top: 26px;
+    width: 248px;
+    height: 56px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+}
+
+.jonning-area {
+    padding: 80px 100px;
+    background: #289BDE;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jonning-area h2 {
+    color: white;
+}
+
+.jonning-area p {
+    color: #F4F4F4;
+}
+
+.join button {
+    color: #289BDE;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 150px;
+    height: 56px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+}
+
+.ready-join {
+    width: 50%;
+}
+.ready-join p{
+    text-align: start;
+}
+.successful-student-title h2,
+p {
+    text-align: center;
+}
+
+.student-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    margin-right: 5%;
+
+}
+
+.student-title h5 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+
+.student-title {
+    margin-left: 5%;
+}
+
+.student img {
+    width: 100%;
+}
+
+.student-show {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.student-show button {
+    width: 146px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #289BDE;
+    color: white;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+
+}
+
+.feedback-title {
+    text-align: center;
+}
+
+.feedback-conatiner {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.feddback-cart {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checked {
+    color: #F59E0B;
+}
+
+.no-checked {
+    color: #FEF3C7;
+}
+
+.student-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.student-info-name p {
+    line-height: 1px;
+}
+
+.student-speech{
+    text-align: start;
+}
+/* faq section */
+.faq-middile {
+    width: 70%;
+    margin: auto;
+}
+
+.faq-container h2,
+p {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.details h3 {
+    font-size: 20px;
+}
+
+.summary {
+    font-size: 20px;
+    padding: .5em 1.3rem;
+    background: rgba(40, 155, 222, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transition: height 1s ease;
+}
+
+.summary-1 {
+    background-color: #f4f4f4;
+}
+
+.summary-3 {
+    background-color: #f4f4f4;
+
+}
+
+.text-faq p {
+    color: #777777;
+}
+
+.summary::-webkit-details-marker {
+    display: none;
+}
+
+.summary:after {
+    content: "\002B";
+}
+
+.details[open] .summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+.details[open] .summary:after {
+    content: "\00D7";
+}
+
+.details[open] div {
+    padding: .5em .5em;
+}
+
+/* faq section */
+
+
+.footer {
+    margin-top: 5%;
+    padding: 80px 256px;
+    text-align: center;
+
+    background: #161616;
+    color: white;
+}
+
+.footer-icon span {
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsivae part */
+
+/* responsive for mobile start */
+@media screen and (max-width : 576px) {
+    .navbar-logo h2 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .navbar-middle-items,
+    .navbar-button button {
+        display: none;
+    }
+
+    .icon {
+        margin-top: 30px;
+    }
+
+    .container {
+        height: 262px;
+        background-image: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), url(./images/cover/cover-3.jpg);
+        background-size: cover;
+    }
+
+    .cover-text h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+
+
+    }
+
+    .cover-text p {
+        color: #f4f4f4;
+        font-size: 12px;
+    }
+
+    .cover-text button {
+        width: 130px;
+        height: 40px;
+        background-color: #289BDE;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .cover-text a {
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .space {
+        margin: 32px 0;
+    }
+
+    .middle-conatiner {
+        text-align: center;
+    }
+
+    .middle-conatiner h2 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .middle-conatiner p {
+        font-size: 14px;
+
+    }
+
+    .cart-container {
+        flex-direction: column;
+    }
+
+    .cart-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 37px;
+        align-items: flex-start;
+    }
+
+    .cart-item-img img {
+        width: 337px;
+    }
+
+    .cart-item-text {
+        margin-top: -20px;
+    }
+
+    .cart-item-text h3 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .cart-item-text p {
+        font-size: 14px;
+    }
+
+    .item-price {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .course-show button {
+        margin-top: -30px;
+        width: 248px;
+        height: 56px;
+        font-size: 20px;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .e-leran h2 {
+        font-size: 30px;
+    }
+
+    .work-png img {
+        width: 100%;
+    }
+
+    .productivity {
+
+        flex-wrap: wrap;
+    }
+
+    .productivity h2 {
+        font-size: 25px;
+    }
+
+    .productivity p {
+        margin-top: -10px;
+    }
+
+    .read-more button {
+        width: 134px;
+        height: 49px;
+        font-size: 18px;
+    }
+
+    .jonning-area {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .ready-join h2 {
+        font-size: 18px;
+    }
+
+    .ready-join p {
+        font-size: 14px;
+        color: #F4F4F4;
+        align-items: flex-start;
+
+    }
+
+    .join button {
+        width: 136px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .successful-student-title h2 {
+        font-size: 20px;
+    }
+
+    .student-profile {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .feedback-conatiner {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .faq-middile {
+        width: 90%;
+        margin: auto;
+    }
+
+    .faq-container h2 {
+        font-size: 20px;
+    }
+
+    .details h3 {
+        font-size: 16px;
+    }
+
+    .details p {
+        font-size: 14px;
+    }
+
+    .footer h2 {
+        font-size: 30px
+    }
+
+    .footer {
+        padding: 30px 47px;
+    }
+}
+
+
+
+/* responsive for mobile end */
+
+/* responsive for tablet start */
+
+
+@media screen and (min-width : 577px) and (max-width : 992px) {
+    .navbar-middle-items {
+        display: none;
+    }
+
+    .cover-text {
+        text-align: center;
+
+    }
+
+    .container {
+        background-image: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), url(./images/cover/cover-2.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+
+    .cover-text h2 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .cover-text p {
+        font-size: 16px;
+    }
+
+    .cover-text button {
+        width: 140px;
+        height: 49px;
+    }
+
+    .middle-conatiner {
+        text-align: center;
+
+    }
+
+    .space {
+        margin: 30px 0;
+    }
+
+    .middle-conatiner h2 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .middle-conatiner p {
+        font-size: 14px;
+    }
+
+    .cart-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-show button {
+        margin-top: 26px;
+        width: 208px;
+        height: 49px;
+        font-size: 18px;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .work-png img {
+        width: 100%;
+    }
+
+    .e-leran {
+        width: 50%;
+    }
+
+    .e-leran h2 {
+        font-size: 25px;
+    }
+
+    .e-leran p {
+        font-size: 14px;
+    }
+
+    .productivity {
+        flex-wrap: wrap;
+    }
+
+    .jonning-area {
+        padding: 58px 8px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jonning-area button {
+        width: 148px;
+        height: 49px;
+        margin-top: 20px;
+    }
+
+
+    .student-profile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+    }
+
+    .feedback-conatiner {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .faq-middile {
+        width: 90%;
+        margin: auto;
+    }
+
+    .faq-container h2 {
+        font-size: 30px;
+    }
+
+    .details h3 {
+        font-size: 20px;
+    }
+
+}
+
+
+
+/* responsive for tablet end */
+
+
+
+
+
+
+@media screen and (min-width : 993px) {
+    .icon {
+        display: none;
+    }
+}
